@@ -1,0 +1,11 @@
+var message1 = "hello";
+message1 = "hi";
+console.log(message1);
+var age1 = 25;
+console.log(age1);
+var isActive = false;
+var numberArray = [1, 2, 3, 4, 5];
+console.log(numberArray);
+var stringArray = ["apple", "banana", "cherry"];
+console.log(stringArray);
+var data = "The data can be any thing";

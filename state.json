@@ -1,0 +1,141 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.1762413406.1767127644",
+      "domain": ".rahulshettyacademy.com",
+      "path": "/",
+      "expires": 1801687644.209464,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUk9aKhuhfrKox6mbIPujr89EG1Bdkn9jby6-c-bpHArdcRggXYWMFD-U_Wi",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1801687644.615387,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1767127644632.403007570243599423",
+      "domain": ".rahulshettyacademy.com",
+      "path": "/",
+      "expires": 1774903644,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "li_sugr",
+      "value": "cef19061-49f2-4658-ac64-e424321913c7",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1774903646.716272,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&8332ddcb-0cbe-4160-84d1-f5004b497d5d\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1798663646.716359,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=TGST08:s=T:r=T:a=T:p=T:g=3192:u=1:x=1:i=1767127644:t=1767214044:v=2:sig=AQFXXL3seaZEevkDDN1096BNDfrJDJKm\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1767214045.039266,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQLqJm3mSwpYdQAAAZtxA_xgJZ1egq_43FAXM1imHF3u6Qq3NCGBrqsSU_DcfLuhg7YHGz-jEoCDww",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1769719645.381462,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQKkpZUFqR0twgAAAZtxA_xgsJNaY1JDHX3Ot9T8Q-vEBcc1cTBASwMC5tSE5e1rCi9B-xcwopCoKYKhxso1MQ",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1769719645.381495,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20251230204725963b8b2c-50ee-4cdf-8e18-0c3d9580b41dAQF7t050w-lG4-AxRdzpqdObWQBZFOk8\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1798663645.805789,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1403642790.1767127643.1420836155.1767127647.1767127646",
+      "domain": ".rahulshettyacademy.com",
+      "path": "/",
+      "expires": 1774903643,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_NVJT9K1HZ2",
+      "value": "GS2.1.s1767127644$o1$g0$t1767127646$j58$l0$h1391839979",
+      "domain": ".rahulshettyacademy.com",
+      "path": "/",
+      "expires": 1801687646.870206,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://rahulshettyacademy.com",
+      "localStorage": [
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTMzNDIzOTMyZWQ4NjU4NzEyMTc1ODYiLCJ1c2VyRW1haWwiOiJhcWVlbG1peWFua2hhbkBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo3NzAzOTgwNzgyLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzY3MTI3NjQ3LCJleHAiOjE3OTg2ODUyNDd9._jNQWnM52vM63tCXLQMXp6sJH93UxJSkQlqhbdK7f-U"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":1,\"timeouts\":0,\"creationTimeMs\":1767127643677},\"expires\":1774903643677}}"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1767127644623"
+        },
+        {
+          "name": "li_adsId",
+          "value": "1bbee92d-a6d3-4308-af70-37b4e7ef3dc6"
+        }
+      ]
+    }
+  ]
+}
