@@ -3,12 +3,8 @@ const { POManager } = require('../../pageobjects/POManager');
 const { expect } = require('@playwright/test');//we don't need test here beacuse we are using cucumebr but the test is used for MoCA framework.
 const playwright = require('@playwright/test');//This step is required to launch the browser and make the page available in the step definition file.
 
-Given('login to the Ecommerce application with {string} and {string}', { timeout: 10 * 1000 }, async function (username, password) {
-    const browser = await playwright.chromium.launch({ headless: false });
-    const context = await browser.newContext();
-    const page = await context.newPage();
-    this.poManager = new POManager(page);
-    const products = page.locator(".card-body");
+Given('login to the Ecommerce application with {string} and {string}', { timeout: 15 * 1000 }, async function (username, password) {
+    const products = this.page.locator(".card-body");
     const loginPage = this.poManager.getLoginPage();
     await loginPage.goTo();
     await loginPage.validLogin(username, password);
@@ -42,4 +38,23 @@ Then('verify the order is present in the order history page', async function () 
     ordersHistoryPage = this.poManager.getOrdersHistoryPage();
     await ordersHistoryPage.searchOrderAndSelect(this.orderId);
     expect(this.orderId.includes(await ordersHistoryPage.getOrderId())).toBeTruthy();
+});
+
+Given('login to the Ecommerce2 application with {string} and {string}', { timeout: 15 * 1000 }, async function (username, password1) {
+    const userName = this.page.locator("input#username");
+    const password = this.page.locator("input#password");
+    const signInBtn = this.page.locator("input#signInBtn");
+
+    await this.page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+    console.log(await this.page.title());
+    await userName.type(username);
+    await password.type(password1);
+    await signInBtn.click();
+});
+
+
+Then('verify error message is displayed', async function () {
+    console.log(await this.page.locator("[style*='block']").textContent());
+    //assertion to verify if the text is correct
+    await expect(this.page.locator("[style*='block']")).toContainText("Incorrect");
 });
